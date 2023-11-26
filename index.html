@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+            .imgbox {
+                display: grid;
+                height: 100%;
+            }
+            .center-fit {
+                max-width: 90%;
+                max-height: 90vh;
+                margin: 5%;
+            }
+            h1 {
+                text-align: center;
+                color: white;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin: 5%;
+            }
+        </style>
+    </head>
 <body>
 
-<h1>Mir si schwanger! =D</h1>
+<h1>Mir si schwanger =D</h1>
 
 <picture>
-  <source media="(min-width:650px)" srcset="baby.png">
-  <source media="(min-width:465px)" srcset="baby.png">
-  <img src="baby.png" alt="Baby" style="width:auto;">
+  <img src="baby.png" alt="Baby" class="center-fit">
 </picture>
 
 </body>
